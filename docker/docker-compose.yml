@@ -8,6 +8,6 @@ services:
       - "8080:80"
 
   web:
-      image: nginx
-      ports:
+    image: nginx
+    ports:
       - "80:80"
